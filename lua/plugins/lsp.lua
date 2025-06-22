@@ -29,7 +29,6 @@ return {
       lspconfig.lua_ls.setup({})
       lspconfig.eslint.setup({})
       lspconfig.jdtls.setup({})
-      lspconfig.kotlin_ls.setup({})
 
       vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
       vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})
